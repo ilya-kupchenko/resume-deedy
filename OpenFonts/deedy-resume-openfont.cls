@@ -13,8 +13,9 @@
 \usepackage[hidelinks]{hyperref}
 
 % Publications
-\usepackage{cite}
-\renewcommand\refname{\vskip -1.5cm}
+\usepackage[style=ieee]{biblatex}
+\addbibresource{resume.bib}
+% \renewcommand\refname{\vskip -1.5cm}
 
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor} 
@@ -54,6 +55,7 @@ Last Updated on \today
 
 % Section seperators 
 \usepackage{titlesec}
+\usepackage{ragged2e}
 \titlespacing{\section}{0pt}{0pt}{0pt} 
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
 \newcommand{\sectionsep}{\vspace{8pt}}
@@ -64,10 +66,10 @@ Last Updated on \today
 
 % Subeadings command
 \titleformat{\subsection}{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{11pt}{11pt}\selectfont \raggedright\bfseries\uppercase}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{11pt}{11pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 % Descriptors command
 \newcommand{\descript}[1]{
@@ -81,4 +83,8 @@ Last Updated on \today
 \newenvironment{tightemize}{
 \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
+
+% Social media symbols
+\usepackage{fontawesome} % Lots of media symbols but some are lacking, i.e. Topcoder, Quora
+\usepackage{graphicx}
 

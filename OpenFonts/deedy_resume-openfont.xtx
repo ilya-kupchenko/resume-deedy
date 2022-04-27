@@ -65,8 +65,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Ilya}{Kupchenko}{ \urlstyle{same}\href{http://ilyakupchenko.com}{ilyakupchenko.com}| \href{http://fb.com/ilya.kupchenko}{fb.co/ilya.kupchenko}\\
-\href{mailto:ikupchenko@gmail.com}{ikupchenko@gmail.com} | 213.270.4685 | \href{mailto:ilya.kupchenko@protonmail.com}{ilya.kupchenko@protonmail.com}
+\namesection{Ilya}{Kupchenko}{ \urlstyle{same}\href{mailto:ilya.kupchenko@protonmail.com}{ilya.kupchenko@protonmail.com}\\ \href{http://ilyakupchenko.com}{ilyakupchenko.com} | +1.213.270.4685
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -103,18 +102,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Facebook:// \href{https://facebook/ilya.kupchenko}{\bf ilya.kupchenko} \\
-Github:// \href{https://github.com/ilya-kupchenko}{\bf ilya-kupchenko} \\
-LinkedIn://  \href{https://www.linkedin.com/in/ilyakupchenko}{\bf ilyakupchenko} \\
-Twitter://  \href{https://twitter.com/IlyaKupchenko}{\bf @IlyaKupchenko} \\
-Quora://  \href{https://www.quora.com/ilya-267}{\bf ilya-267}
+\includegraphics[height=10pt,width=10pt]{gh.png} Github:// \href{https://github.com/ilya-kupchenko}{\bf ilya-kupchenko} \\
+\includegraphics[height=10pt,width=10pt]{in.png} LinkedIn:// \href{https://www.linkedin.com/in/ilyakupchenko}{\bf ilyakupchenko} \\
+\includegraphics[height=10pt,width=9pt]{leetcode.png} Leetcode:// \href{https://leetcode.com/ilyakupchenko/}{\bf ilyakupchenko} \\
+\includegraphics[height=5pt,width=10pt]{topcoder.png} Topcoder:// \href{https://www.topcoder.com/members/IlyaKupchenko}{\bf IlyaKupchenko} \\
+\includegraphics[height=10pt,width=10pt]{hackerrank.png} HackerRank:// \href{https://www.hackerrank.com/ilya\_kupchenko}{\bf ilya\_kupchenko} \\
+\includegraphics[height=10pt,width=10pt]{cc.png} CodeChef:// \href{https://www.codechef.com/users/ilyakupchenko}{\bf ilyakupchenko} \\
+\includegraphics[height=10pt,width=10pt]{kaggle.png} Kaggle:// \href{https://www.kaggle.com/ilyakupchenko}{\bf ilyakupchenko}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Graduate Coursework}
-Advanced Machine Learning \\
+Machine Learning \\
 Database Systems \\
 Quantum Mechanics \\
 Parallel and Distributed Computation \\
@@ -122,21 +123,24 @@ Artificial Interlligence \\
 Theoretical Physics \\
 Web Technologies \\
 
-??? from here until ???END lines may have been inserted/deleted
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
 \location{Over 10000 lines:}
 Java \textbullet{}   BASH \textbullet{} Python \textbullet{} Javascript \\
-\textbullet{} Matlab \textbullet{} Fortran 95 \textbullet{} \LaTeX\ \\ 
+Matlab \textbullet{} Fortran 95 \textbullet{} \LaTeX\ \\ 
 \location{Over 5000 lines:}
 C \textbullet{} C++ \textbullet{} CSS \textbullet{} HTML5 \textbullet{} CSH \\
 \location{Familiar:}
-\textbullet{} iOS \textbullet{} Android \textbullet{} MySQL \textbullet{} GPU \\
-\textbullet{} ZSH \textbullet{} Perl \textbullet{} AngularJS
+iOS \textbullet{} Android \textbullet{} MySQL \textbullet{} GPU \\
+ZSH \textbullet{} Perl \textbullet{} Angular \\
+\location{Tools and Frameworks:}
+Apache Maven \textbullet{} Ant \textbullet{} Make \textbullet{} Agile \\
+Scrum \textbullet{} Jira \textbullet{} Jenkins \\
+JUnit \textbullet{} Android Studio \textbullet{} IntelliJ \\
+Gradle \textbullet{} Spring \textbullet{} GWT \textbullet{} Scala
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -155,15 +159,15 @@ C \textbullet{} C++ \textbullet{} CSS \textbullet{} HTML5 \textbullet{} CSH \\
 
 \section{Experience}
 \runsubsection{Jet Propulsion Laboratory, NASA}
-\descript{| Software Engineer }
+\descript{| Full Stack Software Engineer }
 \location{2017 - 2021 | Pasadena, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item building the front-end for satellite comunication interface (JS, Java)
-\item implementing the parts of the back-end libraries (Java, MySQL)
-\item building unit-tests for Java APIs
-\item fixing the bugs in the data processing libraries and adapting them to 64-bit environment (C, C++)
-\item Building automated testing framework for the URL APIs (Python Requests)
+\item Building the front-end part of the satellite comunication interface (JS, Java)
+\item Implementing the parts of the back-end libraries (Java, MySQL)
+\item Building the unit-tests for the newly-developed Java APIs
+\item Fixing the bugs in the data processing libraries and adapting them to the 64-bit environment (C, C++)
+\item Building an automated testing framework for the URL APIs (Python Requests)
 \end{tightemize}
 \sectionsep
 
@@ -172,21 +176,10 @@ C \textbullet{} C++ \textbullet{} CSS \textbullet{} HTML5 \textbullet{} CSH \\
 \location{Summer 2008 | Moscow, Russia}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Optimizing the schedule of shipments for the network of warehouses and distribution centers using Network Flow and Greedy methods
-\item Implementing automated SAP data extraction, processing and visualising in the the Excel spreadsheet using VBA
+\item Optimizing the schedule of the shipments for the network of the warehouses and distribution centers using the Network Flow and Greedy methods
+\item Implementing a software for SAP data extraction, processing and visualising in the the Excel spreadsheets using VBA
 \end{tightemize}
 \sectionsep
-
-\runsubsection{British American Tobacco}
-\descript{| Data Analyst Intern}
-\location{Summer 2007 | Moscow, Russia}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Statistical analysis of tobacco samples using linear approximmation methods
-\item Automated data extraction and visualization from an SQL database to the Excel templates
-\end{tightemize}
-\sectionsep 
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
@@ -197,24 +190,14 @@ C \textbullet{} C++ \textbullet{} CSS \textbullet{} HTML5 \textbullet{} CSH \\
 \descript{| Research Assistant}
 \location{2011 – 2016 | Los Angeles, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Simulating enzyme catalysis using the quantum mechnics and modecular dynamics algorithms
-\item Implementing the potential of mean force and free energy potential algorithms using the umbrella sampling and thermodynamics integration theory
-\item Statistical analysing the molecular geometry and optimizing the empirical force field parameters to the quantum mechanical forces by means of the GC algorithm
-\item Molecular docking using AutoDock
-\end{tightemize}
+Worked under \textbf{\href{https://laetro.usc.edu/arieh\%20warshel.html}{Arieh Warshel}} together with \textbf{\href{https://www.researchgate.net/profile/Vesselin-Kolev}{Veselin Kolev}}. Investigated enzyme catalysis using the quantum mechanics and modecular dynamics. Implemented the Potential of Mean Force and thermodynamics integration theory. Improved the precision of the empirical force fields by means of Conjugate Gradient optimization method \cite{war01}.
 \sectionsep
 
 \runsubsection{Moscow State University M.V.Lomonosov}
 \descript{| Research Assistant}
 \location{2007 – May 2011 | Moscow, Russia}
-\begin{tightemize}
-\item Creating the thermodynamically equilibrated silica surface using Simulated Annealing method
-\item Modelling the latteral diffusion of the nanoparticles on the gold and silica surface using Density Functiona Theory and empirical force fields
-\item Implementing and optimizing the empirical force fields for the lattice-particle interactions
-\item Statistical analysis of the nanoparticles' latteral diffusion trajectories
-\item Implementing database of the reactions catalized by the enzymes (MySQL, PHP) 
-\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Worked under \textbf{\href{https://lcc.chem.msu.ru/en/author/alexander-nemukhin/}{Alexander Nemukhin}} and together with \textbf{\href{https://arts-sciences.buffalo.edu/chemistry/faculty/faculty-directory/akimov.html}{Alexey Akimov}}. Modelled the latteral diffusion of the nanoparticles on the solid plates using molecular dynamics and Simulated Annealing methods \cite{nem01}.
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -223,7 +206,6 @@ C \textbullet{} C++ \textbullet{} CSS \textbullet{} HTML5 \textbullet{} CSH \\
 
 \section{Awards} 
 \begin{tabular}{rll}
-2001	     & Math Kangaroo Russia competition finalist\\
 2008	     & Russian Foundation for Basic Research grand winner\\
 2011	     & US Fullbright Russia Fellow\\
 \end{tabular}
@@ -234,9 +216,8 @@ C \textbullet{} C++ \textbullet{} CSS \textbullet{} HTML5 \textbullet{} CSH \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
+%\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+\printbibliography[heading=none] %Prints bibliography
 \nocite{*}
 
 \end{minipage} 
